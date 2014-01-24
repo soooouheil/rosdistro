@@ -271,8 +271,8 @@ bullet:
   debian:
     jessie: [libbullet-dev]
     sid: [libbullet-dev]
+    wheezy: [libbullet-dev]
   fedora: [bullet-devel]
-  wheezy: [libbullet-dev]
   gentoo:
   opensuse: [libbullet]
   portage:
@@ -1342,6 +1342,7 @@ libpcl-all:
   opensuse: [pcl]
   ubuntu: [libpcl-1.7-all]
 libpcl-all-dev:
+  debian: [pcl]
   fedora: [pcl-devel]
   opensuse: [pcl]
   ubuntu: [libpcl-1.7-all-dev]
