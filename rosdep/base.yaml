@@ -286,6 +286,7 @@ bullet:
     jessie: [libbullet-dev]
     sid: [libbullet-dev]
   fedora: [bullet-devel]
+  wheezy: [libbullet-dev]
   gentoo:
   opensuse: [libbullet]
   portage:
@@ -537,7 +538,8 @@ gawk:
   ubuntu: [gawk]
 gazebo:
   arch: [gazebo-hg]
-  ubuntu:
+  debian: [gazebo]
+  ubuntu: 
     precise: [gazebo]
     quantal: [gazebo]
     raring: [gazebo]
@@ -1349,6 +1351,7 @@ libpcap:
     apt:
       packages: [libpcap0.8-dev]
 libpcl-all:
+  debian: [pcl]
   fedora: [pcl, pcl-tools]
   opensuse: [pcl]
   ubuntu: [libpcl-1.7-all]
@@ -1357,6 +1360,7 @@ libpcl-all-dev:
   opensuse: [pcl]
   ubuntu: [libpcl-1.7-all-dev]
 libpcsclite-dev:
+  debian: [pcl]
   arch: [pcsclite]
   debian: [libpcsclite-dev]
   fedora: [pcsc-lite-devel]
